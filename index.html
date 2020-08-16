@@ -34,10 +34,12 @@
 
           <div>
             <label for="form-control">Are your industry-related goals personal or professional?</label>
-              <select class="form-control" id="goals">
-                <option value="personal">Personal</option>
-                <option value="professional">Professional</option>
-              </select>
+              <ul>  
+                <select class="form-control" id="goals">
+                  <option value="personal">Personal</option>
+                  <option value="professional">Professional</option>
+                </select>
+              </ul>  
           </div>
           
           <div>
@@ -54,29 +56,35 @@
      
             <div class="form-group">
               <label for="skill">Describe your current programming skill level:</label>
-                <select class="form-control" id="skill">
-                  <option value="1">Novice</option>
-                  <option value="2">Intermediate</option>
-                  <option value="3">Advanced</option>
-                </select>
-            </div>
+                <ul>
+                  <select class="form-control" id="skill">
+                    <option value="1">Novice</option>
+                    <option value="2">Intermediate</option>
+                    <option value="3">Advanced</option>
+                  </select>
+                </ul>
+                </div>
 
             <div class="form-group">
               <label for="interest">What interests you most?</label>      
-                <select class="form-control" id="interest">
-                  <option value="4">Gaming</option>
-                  <option value="5">Website Development</option>
-                  <option value="6">Mobile Apps</option>
-                </select>
-            </div>
+                <ul>  
+                  <select class="form-control" id="interest">
+                    <option value="4">Gaming</option>
+                    <option value="5">Website Development</option>
+                    <option value="6">Mobile Apps</option>
+                  </select>
+                </ul>
+                </div>
 
             <div class="form-group">
               <label for="os">Choose your operating system of choice:</label>
-                <select class="form-control" id="os">
-                  <option value="7">MacOS</option>
-                  <option value="8">Windows</option>
-                  <option value="9">Linux</option>
-                </select>
+                <ul>  
+                  <select class="form-control" id="os">
+                    <option value="7">MacOS</option>
+                    <option value="8">Windows</option>
+                    <option value="9">Linux</option>
+                  </select>
+                </ul>
             </div>
 
             <button type="submit" class="btn">Show my language!</button>
@@ -84,6 +92,10 @@
           </form>
           
           
+          <div class="message">
+            <h4>Great answers!  Knowing what we know about you and your goals and interests, we suggest you start with:</h4>
+          </div>
+
           <div id="hoon">
             <h1>Hoon</h1>
               <p>You should check out Hoon.  Hoon is a new language recently written by the team developing a project named Urbit.  You seem like a good fit for a new challenge.</p>
@@ -94,6 +106,6 @@
           </div>
           <div id="python">
             <h1>Python</h1>
-              <p>The simplicity and readability of Python will help you see the bigger picture, while being powerful enough to build great projects</p>
+              <p>The simplicity and readability of Python will help you see the bigger picture, while being powerful enough to build great projects.</p>
           </div>
                 
