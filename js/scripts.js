@@ -5,10 +5,7 @@ $(document).ready(function() {
     const interest = parseInt($("select#interest").val());
     const os = parseInt($("select#os").val());
 
-
-  $(".message").show();
-      
-      
+  $(".message").show();     
       
   if (skill === 1 && os === 9) {
     $("#python").show();
@@ -28,14 +25,7 @@ $(document).ready(function() {
     $("#javascript").show();
   } else if (skill === 3 && os === 8) {
     $("#hoon").show();
-  } 
-
-
-
-
-    
-    
-    
+  }  
     console.log(interest)
 
   event.preventDefault();  

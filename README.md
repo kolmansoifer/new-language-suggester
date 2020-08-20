@@ -1,4 +1,4 @@
-# Choosing a Programming Language  #
+# Choosing a New Programming Language  #
 
 ### JavaScript and jQuery excersice for Epicodus, 08.14.2020 ###
 
@@ -7,7 +7,7 @@
 
 ## Description ##
 
-### A survey to assist readers in determining which programming language they should learn first ###
+### A survey to assist readers in determining which programming language they should learn next ###
 
 
 ## Setup ##
