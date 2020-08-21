@@ -26,9 +26,9 @@ $(document).ready(function() {
   } else if (skill === 3 && os === 8) {
     $("#hoon").show();
   }  
-    console.log(interest)
-
   event.preventDefault();  
-  });
   
+  });
 });
+  
+
