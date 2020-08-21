@@ -7,28 +7,16 @@ $(document).ready(function() {
 
   $(".message").show();     
       
-  if (skill === 1 && os === 9) {
+  if ((skill === 1 && os === 9) || (skill === 1 && os === 7) || (skill === 1 && os === 9)) {
     $("#python").show();
-  } else if (skill === 2 && os === 8) {
-    $("#javascript").show();
-  } else if (skill === 3 && os === 7) {
-    $("#hoon").show();
-  } else if (skill === 1 && os === 8) {
+  } else if ((skill === 2 && interest === 4) || (skill === 2 && interest === 5) || (skill === 2 && interest === 6)) {
     $("#python").show();
-  } else if (skill === 2 && os === 7) {
-    $("#javascript").show();
-  } else if (skill === 3 && os === 9) {
+  } else {
     $("#hoon").show();
-  } else if (skill === 1 && os === 7) {
-    $("#python").show();
-  } else if (skill === 2 && os === 9) {
-    $("#javascript").show();
-  } else if (skill === 3 && os === 8) {
-    $("#hoon").show();
-  }  
+  } 
+
   event.preventDefault();  
   
   });
 });
   
-
