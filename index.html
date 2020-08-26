@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <title>New Language Suggester</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -13,100 +14,109 @@
     <h1>Choosing a New Programming Language</h1>
     <p>By <a href="mailto:kolmansoifer@gmail.com">Kolman Soifer</a></p>
   </div>
-    <h3>Welcome to Programming!</h3>
-    <p>The choice to embark on a challenge like learning a new programming lanuage can be daunting and intimidating.  <strong>Many</strong> factors will go into how your journey unfolds.  One of those factors is choosing which languages to learn next.  This can be a difficult decision, due in large part to the variety and choices that exist.</p>
-    <p>Some languages you may know or have heard of include:</p>
-    <ul>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Hoon</li>
-      <li>Rust</li>
-      <li>C#</li>
-      <li>Go</li>
-    </ul>
+  <h3>Welcome to Programming!</h3>
+  <p>The choice to embark on a challenge like learning a new programming lanuage can be daunting and intimidating.
+    <strong>Many</strong> factors will go into how your journey unfolds. One of those factors is choosing which
+    languages to learn next. This can be a difficult decision, due in large part to the variety and choices that exist.
+  </p>
+  <p>Some languages you may know or have heard of include:</p>
+  <ul>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Hoon</li>
+    <li>Rust</li>
+    <li>C#</li>
+    <li>Go</li>
+  </ul>
   <div>
-    <p>Regardless of which language you choose to learn, any of the above will help you on your journey.  In the intereset of helping people navigate this process, i've developed a simple five question survey that can help you determine which path to start down.</p>
+    <p>Regardless of which language you choose to learn, any of the above will help you on your journey. In the
+      intereset of helping people navigate this process, i've developed a simple five question survey that can help you
+      determine which path to start down.</p>
   </div>
 
   <div class="container">
     <h3>Start the survey!</h3>
     <form id="language">
 
-    <div>
-      <label for="form-control">Are your industry-related goals personal or professional?</label>
-      <ul>  
-      <select class="form-control" id="goals">
-        <option value="personal">Personal</option>
-        <option value="professional">Professional</option>
-      </select>
-      </ul>  
-    </div>
-          
-    <div>
-      <label for="form-control">If professional, enter your desired salary range:</label>
-      <ul>
-      <select class="form-control" id="salary">
-        <option>N/A</option>
-        <option>0 - $50k</option>
-        <option>$50k - $100k</option>
-        <option>$100k and above</option>
-      </select>            
-      </ul>
-    </div>  
-     
-    <div class="form-group">
-      <label for="skill">Describe your current programming skill level:</label>
-      <ul>
-      <select class="form-control" id="skill">
-        <option value="1">Novice</option>
-        <option value="2">Intermediate</option>
-        <option value="3">Advanced</option>
-      </select>
-      </ul>
-    </div>
+      <div>
+        <label for="form-control">Are your industry-related goals personal or professional?</label>
+        <ul>
+          <select class="form-control" id="goals">
+            <option value="personal">Personal</option>
+            <option value="professional">Professional</option>
+          </select>
+        </ul>
+      </div>
 
-    <div class="form-group">
-      <label for="interest">What interests you most?</label>      
-      <ul>  
-      <select class="form-control" id="interest">
-        <option value="4">Gaming</option>
-        <option value="5">Website Development</option>
-        <option value="6">Mobile Apps</option>
-      </select>
-      </ul>
-    </div>
+      <div>
+        <label for="form-control">If professional, enter your desired salary range:</label>
+        <ul>
+          <select class="form-control" id="salary">
+            <option>N/A</option>
+            <option>0 - $50k</option>
+            <option>$50k - $100k</option>
+            <option>$100k and above</option>
+          </select>
+        </ul>
+      </div>
 
-    <div class="form-group">
-      <label for="os">Choose your operating system of choice:</label>
-      <ul>  
-      <select class="form-control" id="os">
-        <option value="7">MacOS</option>
-        <option value="8">Windows</option>
-        <option value="9">Linux</option>
-      </select>
-      </ul>
-    </div>
+      <div class="form-group">
+        <label for="skill">Describe your current programming skill level:</label>
+        <ul>
+          <select class="form-control" id="skill">
+            <option value="1">Novice</option>
+            <option value="2">Intermediate</option>
+            <option value="3">Advanced</option>
+          </select>
+        </ul>
+      </div>
 
-    <button type="submit" class="btn">Show my language!</button>
+      <div class="form-group">
+        <label for="interest">What interests you most?</label>
+        <ul>
+          <select class="form-control" id="interest">
+            <option value="4">Gaming</option>
+            <option value="5">Website Development</option>
+            <option value="6">Mobile Apps</option>
+          </select>
+        </ul>
+      </div>
+
+      <div class="form-group">
+        <label for="os">Choose your operating system of choice:</label>
+        <ul>
+          <select class="form-control" id="os">
+            <option value="7">MacOS</option>
+            <option value="8">Windows</option>
+            <option value="9">Linux</option>
+          </select>
+        </ul>
+      </div>
+
+      <button type="submit" class="btn">Show my language!</button>
     </form>
-          
-          
+
+
     <div class="message">
-      <h4>Great answers!  Knowing what we know about you and your goals and interests, we suggest you go with:</h4>
+      <h4>Great answers! Knowing what we know about you and your goals and interests, we suggest you go with:</h4>
     </div>
 
     <div id="hoon">
       <h1><a href="https://urbit.org/docs/tutorials/hoon" target="_blank">Hoon</a></h1>
-      <p>You seem like a good fit for a new, more advanced challenge.  Hoon is a new language recently written by the team developing a project named <a href="https://urbit.org" target="_blank">Urbit</a>.  </p>
+      <p>You seem like a good fit for a new, more advanced challenge. Hoon is a new language recently written by the
+        team developing a project named <a href="https://urbit.org" target="_blank">Urbit</a>. </p>
     </div>
     <div id="javascript">
-      <h1><a href="https://www.javascript.com" target="_blank">JavaScript</a></h1>  
-      <p>Yep.  Definitely JavaScript.  With your level of experience, JS will come naturally, while keeping you challenged.</p>
+      <h1><a href="https://www.javascript.com" target="_blank">JavaScript</a></h1>
+      <p>Yep. Definitely JavaScript. With your level of experience, JS will come naturally, while keeping you
+        challenged.</p>
     </div>
     <div id="python">
       <h1><a href="https://www.python.org/" target="_blank">Python</a></h1>
-      <p>The simplicity and readability of Python will help you see the bigger picture, while being powerful enough to build great projects.</p>
+      <p>The simplicity and readability of Python will help you see the bigger picture, while being powerful enough to
+        build great projects.</p>
     </div>
-                
+
 </body>
+
 </html>
